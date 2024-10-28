@@ -8,6 +8,6 @@ In this repo, I document the steps I take to learn javascript.
 - [JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
 
 ## Introduction to js
-In `Chrome`, press `F12` to open the `developer tools`.
+In Chrome, press `F12` to open the `developer tools`.
 
 Key terms: ECMAScript, ECMA262, browser engine, Document Object Model (DOM), web IDL, V8
