@@ -16,3 +16,7 @@
 4. **Variables**
     - `let`, `var`, `const`
     - `$` and `_` can be used in variable names
+5. **Types**
+    - primitive: `number`, `bigint`, `string`, `boolean`, `null`, `undefined`, `symbol`
+    - non-primitive: `object`
+    - `typeof x`: returns a string with the name of the type
