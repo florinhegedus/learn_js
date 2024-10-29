@@ -13,3 +13,6 @@
     - introduced to enable developers to write js the "modern way", with stricter rules and parsing
     - classes and modules use by default strict mode
     - in console strict mode is disabled by default, use `shift + enter` to input multiple lines
+4. **Variables**
+    - `let`, `var`, `const`
+    - `$` and `_` can be used in variable names
