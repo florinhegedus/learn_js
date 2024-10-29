@@ -20,3 +20,7 @@
     - primitive: `number`, `bigint`, `string`, `boolean`, `null`, `undefined`, `symbol`
     - non-primitive: `object`
     - `typeof x`: returns a string with the name of the type
+6. **alert-prompt-confirm**
+    - `alert` shows a message
+    - `prompt` shows a message and asks for input, returns the text or `null`
+    - `confirm` showsd a message and returns true or false
