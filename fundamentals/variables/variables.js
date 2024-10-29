@@ -12,5 +12,5 @@ alert(name);
 
 
 // PROBLEM 2
-const ourPlanetName = "EARTH";
+let ourPlanetName = "EARTH";
 let currentUserName = "John";
