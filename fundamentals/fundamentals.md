@@ -23,4 +23,4 @@
 6. **alert-prompt-confirm**
     - `alert` shows a message
     - `prompt` shows a message and asks for input, returns the text or `null`
-    - `confirm` showsd a message and returns true or false
+    - `confirm` shows a message and returns true or false
