@@ -18,3 +18,7 @@ Key terms: ECMAScript, ECMA262, browser engine, Document Object Model (DOM), web
     - js code inside html or in separate files
     - showed an alert
 2. **Code structure**
+    - `;` separates statements
+    - `newline` usually implies `;`, so `;` is not needed
+    - add single line comments `//` and multiline comments `/* */`
+    - nested comments are not supported
