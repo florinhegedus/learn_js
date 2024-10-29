@@ -13,8 +13,8 @@ In Chrome, press `F12` to open the `developer tools`.
 Key terms: ECMAScript, ECMA262, browser engine, Document Object Model (DOM), web IDL, V8
 
 ## Fundamentals
-1. `Hello, world!`
+1. **Hello, world!**
     - `<script>` tag
     - js code inside html or in separate files
     - showed an alert
-2. `Code structure`
+2. **Code structure**
