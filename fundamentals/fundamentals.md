@@ -70,8 +70,18 @@
     - template:
     '''
         function name(parameters, delimited, by, comma) {
-            
+
         }
     '''
     - values passed to a function as parameters are copied to its local variables
     - a function that does not return anything, actually returns `undefined`
+16. **Function expressions**
+    - functions are values
+    - they can be copied, assigned and declared anywhere in the code
+    - function declaration -> normal functions, processed before the code reaches them
+    - function expressions are processed when the code reaches them. Example of function expression:
+    '''
+        let sum = function(a, b) {
+            return a + b;
+        };
+    '''
