@@ -8,3 +8,4 @@
     - tools: `Watch`, `Call Stack`, `Scope`
     - `resume` (`F8`), `step` (`F9`), `step over` (`F10`), `step into` (`F11`), `step out` (`shift + F11`)
     - `console.log(...)` outputs things to console
+2. **Coding style**
