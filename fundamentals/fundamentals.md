@@ -54,7 +54,7 @@
     ```
     - `?` operator: `message = condition ? "YES : "NO"`
 11. **Logical operators**
-    - chain of `!!` returns first truthy value or last one if there is no truthy value
+    - chain of `||` returns first truthy value or last one if there is no truthy value
     - chain of `&&` returns first falsy value or last one if there is no falsy value
     - `!` converts the operand to boolean type and returns the inverse value
 12. **Nullish coalescing operator**
