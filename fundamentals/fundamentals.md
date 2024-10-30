@@ -16,6 +16,7 @@
 4. **Variables**
     - `let`, `var`, `const`
     - `$` and `_` can be used in variable names
+    - dynamically typed, can store any values
 5. **Types**
     - primitive: `number`, `bigint`, `string`, `boolean`, `null`, `undefined`, `symbol`
     - non-primitive: `object`
