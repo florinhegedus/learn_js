@@ -18,4 +18,7 @@
     - add `mocha` for tests and `chai` for assert statements
     - `describe` and `it` specify what the function does
     - inside `it` use `assert`
+6. **Polyfills and transpilers**
+    - `transpilers` parse code and rewrite it using older syntax
+    - `polyfills` are scripts that update/add new functions in outdated js engines
     
