@@ -31,6 +31,7 @@
         - `null` -> 0
         - `true` / `false` -> 1 / 0
         - string -> spaces, tabs, newlines are ignored, empty string is 0, an error gives a Nan
+        - `+` also casts variables to be numbers
     - boolean conversion: `Boolean(value)`
         - `0`, `null`, `undefined`, `NaN`, `""` -> `false`
         - any other value -> `true`
@@ -52,10 +53,13 @@
         }
     '''
     - `?` operator: `message = condition ? "YES : "NO"`
-11. Logical operators
+11. **Logical operators**
     - chain of `!!` returns first truthy value or last one if there is no truthy value
     - chain of `&&` returns first falsy value or last one if there is no falsy value
     - `!` converts the operand to boolean type and returns the inverse value
-12. Nullish coalescing operator
+12. **Nullish coalescing operator**
     - `??` short way to choose first defined variable from a list
     - forbidden to use it with `||` and `&&` without parantheses
+13. **Loops**
+    - `for`, `while`, `do ... while`
+    - `break`, `continue` and label for loops to break a specific outter loop
