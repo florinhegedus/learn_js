@@ -63,3 +63,6 @@
 13. **Loops**
     - `for`, `while`, `do ... while`
     - `break`, `continue` and label for loops to break a specific outter loop
+
+14. **switch statement**
+    - `switch` uses strictly equal `===` to match cases
