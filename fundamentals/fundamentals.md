@@ -85,4 +85,8 @@
             return a + b;
         };
     ```
+17. **Arrow functions**
+    - without curly braces: `(...args) => expression`
+    - with curly braces: `(...args) => { body }` allows to write multiple statements in the body
+    - `() => ...` for no arguments, `variable => ...` for single argument
 
