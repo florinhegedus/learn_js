@@ -14,3 +14,8 @@
     - special syntax used to document a function: `JSDoc`
 4. **Ninja code**
     - tips on how to make your code unreadable
+5. **Testing mocha**
+    - add `mocha` for tests and `chai` for assert statements
+    - `describe` and `it` specify what the function does
+    - inside `it` use `assert`
+    
