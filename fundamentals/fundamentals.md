@@ -66,3 +66,12 @@
 
 14. **switch statement**
     - `switch` uses strictly equal `===` to match cases
+15. **Functions**
+    - template:
+    '''
+        function name(parameters, delimited, by, comma) {
+            
+        }
+    '''
+    - values passed to a function as parameters are copied to its local variables
+    - a function that does not return anything, actually returns `undefined`
