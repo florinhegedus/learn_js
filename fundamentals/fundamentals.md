@@ -9,7 +9,7 @@
     - add single line comments `//` and multiline comments `/* */`
     - nested comments are not supported
 3. **use strict**
-    - `"use strict;"` placed at the beginning of a file or function
+    - `"use strict"` placed at the beginning of a file or function
     - introduced to enable developers to write js the "modern way", with stricter rules and parsing
     - classes and modules use by default strict mode
     - in console strict mode is disabled by default, use `shift + enter` to input multiple lines
@@ -34,3 +34,6 @@
     - boolean conversion: `Boolean(value)`
         - `0`, `null`, `undefined`, `NaN`, `""` -> `false`
         - any other value -> `true`
+8. **Operators**
+    - convert strings with `+`
+    - increment `value++` or `++value`
