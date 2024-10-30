@@ -10,3 +10,5 @@
     - `console.log(...)` outputs things to console
 2. **Coding style**
     - automated linters: `ESLint`
+3. **Comments**
+    - special syntax used to document a function: `JSDoc`
