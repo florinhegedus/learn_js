@@ -1,6 +1,6 @@
 ## Code quality
 1. **Debugging chrome**
-    - `F12` to opem `dev tools`
+    - `F12` to open `dev tools`
     - `Sources` panel to view files
     - `Esc` to open console
     - click on line number to put a `breakpoint`
