@@ -37,3 +37,19 @@
 8. **Operators**
     - convert strings with `+`
     - increment `value++` or `++value`
+9. **Comparison**
+    - values of different types are converted to numbers
+    - `===` strict equality check
+    - `null` and `undefined` only equal each other, but no other value
+    - check separately for `null`, `undefined`
+10. **if - else**
+    - default syntax:
+    '''
+        if (condition) {
+            message = "YES;
+        } else {
+            message = "NO;
+        }
+    '''
+    - `?` operator: `message = condition ? "YES : "NO"`
+
