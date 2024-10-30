@@ -12,3 +12,5 @@
     - automated linters: `ESLint`
 3. **Comments**
     - special syntax used to document a function: `JSDoc`
+4. **Ninja code**
+    - tips on how to make your code unreadable
