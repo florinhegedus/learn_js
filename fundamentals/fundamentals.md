@@ -45,13 +45,13 @@
     - check separately for `null`, `undefined`
 10. **if - else**
     - default syntax:
-    '''
+    ```
         if (condition) {
             message = "YES;
         } else {
             message = "NO;
         }
-    '''
+    ```
     - `?` operator: `message = condition ? "YES : "NO"`
 11. **Logical operators**
     - chain of `!!` returns first truthy value or last one if there is no truthy value
@@ -68,11 +68,11 @@
     - `switch` uses strictly equal `===` to match cases
 15. **Functions**
     - template:
-    '''
+    ```
         function name(parameters, delimited, by, comma) {
 
         }
-    '''
+    ```
     - values passed to a function as parameters are copied to its local variables
     - a function that does not return anything, actually returns `undefined`
 16. **Function expressions**
@@ -80,8 +80,9 @@
     - they can be copied, assigned and declared anywhere in the code
     - function declaration -> normal functions, processed before the code reaches them
     - function expressions are processed when the code reaches them. Example of function expression:
-    '''
+    ```
         let sum = function(a, b) {
             return a + b;
         };
-    '''
+    ```
+
