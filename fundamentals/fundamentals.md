@@ -24,3 +24,13 @@
     - `alert` shows a message
     - `prompt` shows a message and asks for input, returns the text or `null`
     - `confirm` shows a message and returns true or false
+7. **Type conversions**
+    - string conversion: `String(value)`
+    - numeric conversion: `Number(value)`
+        - `undefined` -> `NaN`
+        - `null` -> 0
+        - `true` / `false` -> 1 / 0
+        - string -> spaces, tabs, newlines are ignored, empty string is 0, an error gives a Nan
+    - boolean conversion: `Boolean(value)`
+        - `0`, `null`, `undefined`, `NaN`, `""` -> `false`
+        - any other value -> `true`
