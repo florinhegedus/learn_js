@@ -11,4 +11,15 @@
 3. **Garbage collection**
     - performed automatically
     - objects are retained in memory as long as they are reachable from a root
+4. **Object methods**
+    - can be declared inside objects without the `function` keyword
+    - make use of `this` to access current object
+    - a function can be assigned to an object
+```
+function sayHello() {
+    alert(`Hello, I am {this.name}`);
+}
+
+user.f = sayHello;
+```
 
