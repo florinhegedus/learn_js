@@ -25,4 +25,12 @@ user.f = sayHello;
 5. **Constructor**
     - constructor functions are regular functions, the name starts with a capital letter
     - `new` assures creation of empty `this`, populating it inside the `constructor` and returning it
-
+6. **Optional chaining**
+    - `obj?.prop`, `obj?.[prop]`, `obj.method?.()`
+    - returns the property/method only if `obj` exists, otherwise returns `undefined`
+7. **Symbol**
+    - `Symbol` is a primitive type for unique identifiers
+    - use cases are hidden object properties and changing built-in behaviors with `system symbols`
+8. **Object to primitive**
+    - three types: `string`, `number`, `default`
+    - convert object to a primitive value
