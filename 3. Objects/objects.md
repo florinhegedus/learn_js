@@ -22,4 +22,7 @@ function sayHello() {
 
 user.f = sayHello;
 ```
+5. **Constructor**
+    - constructor functions are regular functions, the name starts with a capital letter
+    - `new` assures creation of empty `this`, populating it inside the `constructor` and returning it
 
