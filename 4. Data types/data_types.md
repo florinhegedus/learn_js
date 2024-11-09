@@ -24,3 +24,5 @@
     - operations: `push`, `pop`, `shift`, `unshift`
     - iterate: `for (let i=0; i<arr.length; i++)` or `for (let item of arr)`
         - !!! never use `for (let item in arr)`, it is used to iterate over generic object's properties
+5. **Array methods**
+    - 
