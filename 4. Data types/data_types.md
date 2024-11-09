@@ -25,4 +25,10 @@
     - iterate: `for (let i=0; i<arr.length; i++)` or `for (let item of arr)`
         - !!! never use `for (let item in arr)`, it is used to iterate over generic object's properties
 5. **Array methods**
-    - 
+    - `push(...items)` - add items to end
+    - `pop()` - extract item from end
+    - `shift()` - extract item from beginning
+    - `unshift()` - add items to beginning
+    - `splice(pos, deleteCount, ...items)` - at index `pos` delete `deleteCount` elements and insert `items`
+    - `slice(start, end)` - create new array, copy elements from `start` to `end`
+    - `concat(...items)` - return new array, copy elements from current array and add `items` to it
