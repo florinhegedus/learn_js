@@ -32,3 +32,10 @@
     - `splice(pos, deleteCount, ...items)` - at index `pos` delete `deleteCount` elements and insert `items`
     - `slice(start, end)` - create new array, copy elements from `start` to `end`
     - `concat(...items)` - return new array, copy elements from current array and add `items` to it
+6. **Iterables**
+    - `for..of`
+    - must implement `Symbol.iterator`
+    - must implement method `next` that returns `{done: Boolean, value: any}`
+    - `Symbol.iterator` is called automatically by `for..of`
+    - objects that have indexed properties are called `array-like`
+    - `Array.from` makes a real `Array` from `iterable`
