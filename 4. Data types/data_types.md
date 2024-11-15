@@ -39,3 +39,6 @@
     - `Symbol.iterator` is called automatically by `for..of`
     - objects that have indexed properties are called `array-like`
     - `Array.from` makes a real `Array` from `iterable`
+7. **Map and set**
+    - `Map` is a collection of keyed values
+    - `Set` is a collection of unique values
