@@ -45,3 +45,7 @@
 8. **WeakMap and WeakSet**
     - `WeakMap` is a `Map`-like collection, allows only objects as values and they removed from the `WeakMap` automatically if they are not reachable by other means
     - `WeakSet` is a `Set`-like collection, allows only objects and they are removed from the set if they are not reachable by other means
+9. **Object.keys, values, entries**
+    - `Object.keys(obj)` - returns an array of keys
+    - `Object.values(obj)` - returns an array of values
+    - `Object.entries(obj)` - returns an array of `[key, value]` pairs
