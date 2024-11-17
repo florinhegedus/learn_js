@@ -49,3 +49,7 @@
     - `Object.keys(obj)` - returns an array of keys
     - `Object.values(obj)` - returns an array of values
     - `Object.entries(obj)` - returns an array of `[key, value]` pairs
+10. **Destructuring assignment**
+    - map an object or an array to many variables
+    - object: `let {prop: varName = defaultValue, ...rest} = object`
+    - array: `let [item1 = defaultValue, ...rest] = array`
