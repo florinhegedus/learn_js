@@ -58,3 +58,7 @@
     - days of week in `getDay()` are counted from 0
     - months are also counted from 0
     - `Date.now()` gets current timestamp fast
+12. **JSON**
+    - support plain objects, arrays, strings, numbers, booleans and `null`
+    - `JSON.stringify` and `JSON.parse`
+    - `toJSON` is called by `JSON.stringify` if it exists
