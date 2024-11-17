@@ -42,3 +42,6 @@
 7. **Map and set**
     - `Map` is a collection of keyed values
     - `Set` is a collection of unique values
+8. **WeakMap and WeakSet**
+    - `WeakMap` is a `Map`-like collection, allows only objects as values and they removed from the `WeakMap` automatically if they are not reachable by other means
+    - `WeakSet` is a `Set`-like collection, allows only objects and they are removed from the set if they are not reachable by other means
