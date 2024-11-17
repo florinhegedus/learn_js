@@ -53,3 +53,8 @@
     - map an object or an array to many variables
     - object: `let {prop: varName = defaultValue, ...rest} = object`
     - array: `let [item1 = defaultValue, ...rest] = array`
+11. **Date**
+    - `Date` represent date/time
+    - days of week in `getDay()` are counted from 0
+    - months are also counted from 0
+    - `Date.now()` gets current timestamp fast
