@@ -7,4 +7,4 @@
 3. **Variable scope**
 - variables inside code blocks `{...}` are only visible within that scope
 - nested functions - functions inside other functions, functions in `return` statements
-
+4. 
