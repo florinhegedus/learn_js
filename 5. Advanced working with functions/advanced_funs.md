@@ -10,3 +10,7 @@
 4. **Var**
 - `var` variables have no block scope, they are visible in the whole function or globally if declared outside a function
 - declarations are processed at the start of the script
+5. **Global object**
+- holds variables that should be available everywhere
+- examples are: `Array` , `window.innerHeight`
+- `var` variables are properties of the global object
