@@ -14,3 +14,7 @@
 - holds variables that should be available everywhere
 - examples are: `Array` , `window.innerHeight`
 - `var` variables are properties of the global object
+6. **Function object**
+- functions are objects and have `name` and `length` (number of parameters)
+
+
