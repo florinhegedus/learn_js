@@ -7,4 +7,6 @@
 3. **Variable scope**
 - variables inside code blocks `{...}` are only visible within that scope
 - nested functions - functions inside other functions, functions in `return` statements
-4. 
+4. **Var**
+- `var` variables have no block scope, they are visible in the whole function or globally if declared outside a function
+- declarations are processed at the start of the script
