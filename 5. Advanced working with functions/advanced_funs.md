@@ -19,4 +19,7 @@
 7. **new Function**
 - `let func = new Function([arg1, arg2, ...argN], functionBody);`
 - have `[[Environment]]` referencing the global lexical environment and cannot reference the outer one
-
+8. **setTimeout and setInterval**
+- `setTimeout` runs a function once after the specified setInterval
+- `setInterval` runs the function repeatedly at the specificed interval
+- cancel with `clearTimeout`, `clearInterval`
