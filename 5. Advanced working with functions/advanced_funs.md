@@ -16,5 +16,7 @@
 - `var` variables are properties of the global object
 6. **Function object**
 - functions are objects and have `name` and `length` (number of parameters)
-
+7. **new Function**
+- `let func = new Function([arg1, arg2, ...argN], functionBody);`
+- have `[[Environment]]` referencing the global lexical environment and cannot reference the outer one
 
