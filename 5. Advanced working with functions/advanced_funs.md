@@ -24,3 +24,4 @@
 - `setInterval` runs the function repeatedly at the specificed interval
 - cancel with `clearTimeout`, `clearInterval`
 9. 
+10. 
